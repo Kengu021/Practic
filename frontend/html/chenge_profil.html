@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BootstrapStudio mdk (Backup 1591714911889)</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="../php/redprof.php">
+    
+</head>
+
+<body>
+
+        <div >
+            <form action="../php/redprof.php" method="post" style="color: black; margin-top: 5rem;">
+                <div class="container" style="color: black;">
+                    <h1 style="font-size: 35px;text-align: center;margin-top: 2rem;color: black;">Редактировать профиль</h1>
+                    <div class="form-row">
+                        <div class="col">
+                            <p style="margin-top: 1rem;font-size: 18px;margin-left: 1rem;">Изменить email</p><input class="form-control" type="email" name="change_email" style="background-color: rgb(197,191,191);max-width: 30rem;margin-left: 1rem;"></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <p style="margin-top: 1rem;font-size: 18px;margin-left: 1rem;">Изменить имя</p><input class="form-control" type="text" name="change_name" style="background-color: rgb(197,191,191);max-width: 30rem;margin-left: 1rem;"></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div>
+                                <h1 style="font-size: 22px;text-align: center;margin-top: 2rem;">Изменение пароля&nbsp;</h1>
+                                <div class="col">
+                                    <p style="margin-top: 1rem;font-size: 18px;">Введите старый пароль</p><input class="form-control" name="old_pass" type="password" style="background-color: rgb(197,191,191);max-width: 30rem;"></div>
+                                <div class="col">
+                                    <p style="margin-top: 1rem;font-size: 18px;">Введите новый пароль&nbsp;</p>
+                                    <input class="form-control" type="password" name="new_pass" style="background-color: rgb(197,191,191);max-width: 30rem;">
+                                    <p style="margin-top: 1rem;font-size: 18px;">Повторите пароль</p>
+                                    <input class="form-control" type="password" name="new_pass_rep" style="margin-top: 1rem;margin-bottom: 1rem;background-color: rgb(197,191,191);max-width: 30rem;"></div>
+                            </div>
+                        </div>
+                    </div><button class="btn btn-primary" type="submit" name="add_change" style="margin-top: 2rem;margin-bottom: 3rem;margin-left: 1rem;background-color: rgb(58,58,58);">Добавить изменения&nbsp;</button></div>
+            </form>
+        </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
